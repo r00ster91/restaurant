@@ -8,15 +8,12 @@
       </div>
     </div>
     <section class="section">
-      <h2 class="subtitle">
-        Das Ledavi bietet eine spannende Geschichte. Hier ein Zitat vom Macher Leonardo da Vinci selbst:
+      <h2 class="box subtitle has-text-centered">
+        Das Ledavi bietet eine spannende Geschichte. Hier Zitate vom Macher Leonardo da Vinci selbst:
       </h2>
-      <figure>
-        <!--Source: https://pdxretro.com/2017/11/painting-sets-world-auction-record/-->
-        <img src="~/assets/leonardo-da-vinci.jpg">
-        <!--<p style="text-align: center; font-style: italic;">Der Macher des Ledavi</p>-->
 
-        <figcaption>
+      <figure>
+        <figcaption style="font-style: italic;" class="box">
           14.03.1478
           <br>
           Es war ein schöner Morgen 1478, wo ich mir dachte, es ist an der
@@ -80,6 +77,11 @@
           Ich richtete alles an, stellte ein paar Leute aus dem Dorf ein und
           von da an lief das Geschäft gut.
           </figcaption>
+          <div>
+            <!--Source: https://pdxretro.com/2017/11/painting-sets-world-auction-record/-->
+            <img src="~/assets/leonardo-da-vinci.jpg">
+            <p style="text-align: center; font-style: italic; color: white;">Der Macher des Ledavi</p>
+          </div>
         </figure>
       </section>
     </section>
@@ -88,19 +90,8 @@
 
 <style>
   figure {
-    margin: 0;
-    padding: 0;
     display: grid;
     grid-template-columns: 750px 500px;
     align-items: center;
-  }
-  figcaption {
-    order: -1;
-    text-align: right;
-    font-style: italic;
-    margin: 0;
-    padding: 15px;
-    background: rgb(200, 200, 200);
-    border-radius: 5px;
   }
 </style>
