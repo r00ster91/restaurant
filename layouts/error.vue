@@ -3,9 +3,9 @@
     <div class="hero-body">
       <p class="title has-text-centered">
         Upps, da ist wohl etwas schiefgelaufen.
-        <br>
+        <br />
         Aber Sie können weiterhin unsere Köstlichkeiten genießen!
-        <br>
+        <br />
         <NuxtLink to="/">Einfach zurück zur Startseite.</NuxtLink>
       </p>
     </div>
