@@ -87,8 +87,8 @@ export default {
   },
   mounted: function() {
     setInterval(() => {
-      for (var index = 0; index < this.orders.length; index++) {
-        let item = this.orders[index]
+      for (let index = 0; index < this.orders.length; index++) {
+        const item = this.orders[index]
         this.orders[index].splice(2, 1, this.orders[index][2] - 1);
         if (this.orders[index][2] == 0) {
           this.$buefy.notification.open(
@@ -101,7 +101,7 @@ export default {
   },
   methods: {
     order(item, quantity) {
-      let preparation_time = item.length * quantity
+      const preparation_time = item.length * quantity
       this.orders.push([item, quantity, preparation_time])
     },
   }

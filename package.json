@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "msgpack-lite": "^0.1.26",
     "nuxt": "^2.14.12",
     "nuxt-buefy": "^0.4.4"
   },

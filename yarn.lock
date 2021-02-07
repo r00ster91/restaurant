@@ -3194,11 +3194,6 @@ etag@^1.8.1, etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-event-lite@^0.1.1:
-  version "0.1.2"
-  resolved "https://registry.npmjs.org/event-lite/-/event-lite-0.1.2.tgz"
-  integrity sha512-HnSYx1BsJ87/p6swwzv+2v6B4X+uxUteoDfRxsAb1S1BePzQqOLevVmkdA15GHJVd9A9Ok6wygUR18Hu0YeV9g==
-
 events@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.2.0.tgz"
@@ -3928,7 +3923,7 @@ icss-utils@^4.0.0, icss-utils@^4.1.1:
   dependencies:
     postcss "^7.0.14"
 
-ieee754@^1.1.13, ieee754@^1.1.4, ieee754@^1.1.8:
+ieee754@^1.1.13, ieee754@^1.1.4:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
@@ -4031,11 +4026,6 @@ inquirer@^7.3.3:
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
     through "^2.3.6"
-
-int64-buffer@^0.1.9:
-  version "0.1.10"
-  resolved "https://registry.npmjs.org/int64-buffer/-/int64-buffer-0.1.10.tgz"
-  integrity sha1-J3siiofZWtd30HwTgyAiQGpHNCM=
 
 ip@^1.1.5:
   version "1.1.5"
@@ -4813,16 +4803,6 @@ ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
-
-msgpack-lite@^0.1.26:
-  version "0.1.26"
-  resolved "https://registry.npmjs.org/msgpack-lite/-/msgpack-lite-0.1.26.tgz"
-  integrity sha1-3TxQsm8FnyXn7e42REGDWOKprYk=
-  dependencies:
-    event-lite "^0.1.1"
-    ieee754 "^1.1.8"
-    int64-buffer "^0.1.9"
-    isarray "^1.0.0"
 
 mustache@^2.3.0:
   version "2.3.2"
@@ -6017,11 +5997,6 @@ prepend-http@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
-
-prettier@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
-  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
 
 prettier@^1.18.2:
   version "1.19.1"
